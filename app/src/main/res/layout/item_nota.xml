@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTituloNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título de la nota"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:id="@+id/tvFechaNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="02/07/2026"
+            android:textSize="12sp"
+            android:textColor="#777777"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvContenidoNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acá va el resumen de lo que el paciente pensó..."
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

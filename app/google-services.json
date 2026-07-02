@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924866262589",
+    "project_id": "therapynow-bf9ff",
+    "storage_bucket": "therapynow-bf9ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924866262589:android:2f4f5526490fe4efb7dc54",
+        "android_client_info": {
+          "package_name": "com.example.therapynow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924866262589-jor6nvuk4hfg09m23aqblr93ka7suro3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiahP4YofoR5cMHjC6MXYGxD_jZx2qg6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924866262589-jor6nvuk4hfg09m23aqblr93ka7suro3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
